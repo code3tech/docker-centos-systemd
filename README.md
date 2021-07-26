@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/Code3%20Tech-DevOps%20Tool-%231D8348)](https://hub.docker.com/repository/docker/code3tech/centos)
 [![](https://img.shields.io/docker/cloud/automated/code3tech/centos)](https://hub.docker.com/repository/docker/code3tech/centos)
 [![](https://img.shields.io/docker/cloud/build/code3tech/centos)](https://hub.docker.com/repository/docker/code3tech/centos)
-[![](https://img.shields.io/docker/image-size/code3tech/centos/latest)](https://hub.docker.com/repository/docker/code3tech/centos)
+[![](https://img.shields.io/docker/image-size/code3tech/centos/7)](https://hub.docker.com/repository/docker/code3tech/centos)
 [![](https://img.shields.io/docker/pulls/code3tech/centos)](https://hub.docker.com/repository/docker/code3tech/centos)
 [![](https://img.shields.io/docker/stars/code3tech/centos)](https://hub.docker.com/repository/docker/code3tech/centos)
 [![](https://img.shields.io/github/issues/code3tech/docker-centos-systemd)](https://hub.docker.com/repository/docker/code3tech/centos)

@@ -1,4 +1,5 @@
-FROM centos:8
+
+FROM centos:7
 
 LABEL maintainer="Code3 Tech <it.code3@gmail.com>"
 
