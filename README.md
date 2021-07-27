@@ -5,8 +5,8 @@
 [![](https://img.shields.io/docker/image-size/code3tech/centos/7?label=size&logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/code3tech/centos)
 [![](https://img.shields.io/docker/pulls/code3tech/centos?label=pulls&logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/code3tech/centos)
 [![](https://img.shields.io/docker/stars/code3tech/centos?label=starts&logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/code3tech/centos)
-[![](https://img.shields.io/github/issues/code3tech/docker-centos-systemd?label=issues&logo=github&logoColor=white)](https://hub.docker.com/repository/docker/code3tech/centos)
-[![](https://img.shields.io/github/license/code3tech/docker-centos-systemd?label=issues&logo=github&logoColor=white)](https://hub.docker.com/repository/docker/code3tech/centos)
+[![](https://img.shields.io/github/issues/code3tech/docker-centos-systemd?label=issues&logo=github&logoColor=white)](https://github.com/code3tech/docker-centos-systemd/issues)
+[![](https://img.shields.io/github/license/code3tech/docker-centos-systemd?logo=github&logoColor=white)](https://github.com/code3tech/docker-centos-systemd/blob/main/LICENSE)
 
 Este Dockerfile pode construir containers com a capacidade de usar o systemd, seu principal proposito é testar ansible playbooks e roles, simulando o SO alvo.
 
