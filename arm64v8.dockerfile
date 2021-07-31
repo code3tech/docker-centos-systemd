@@ -1,4 +1,4 @@
-FROM centos:8
+FROM arm64v8/centos:8
 
 LABEL maintainer="Code3 Tech <it.code3@gmail.com>"
 
