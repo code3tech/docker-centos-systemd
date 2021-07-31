@@ -23,6 +23,10 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: code3tech/centos
+          flavor: |
+            latest=auto
+            prefix=
+            suffix=
 
       - name: 03 - Login to DockerHub
         if: github.event_name != 'pull_request'
