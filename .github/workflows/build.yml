@@ -30,6 +30,11 @@ jobs:
             latest=auto
             prefix=
             suffix=
+          tags: |
+            type=ref,event=branch,pattern=8
+            type=ref,event=pr
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
 
       - name: 04 - Login to DockerHub
         if: github.event_name != 'pull_request'

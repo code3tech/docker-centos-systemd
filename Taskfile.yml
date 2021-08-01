@@ -1,0 +1,37 @@
+version: '3'
+
+vars:
+  GREETING: Hello, World! 
+
+tasks:
+  default:
+    silent: true
+    cmds:
+      - task: resume
+      - task: gate
+      - task: security
+      - task: build-push
+
+  resume:
+    silent: true
+    cmds:
+      - cmd: echo '{{OS}} {{ARCH}} {{.ARGS}}' 
+    vars:
+      ARGS:
+        sh: echo '{{splitLines .CLI_ARGS}}'
+  
+  gate:
+    silent: true
+    cmds:
+      - cmd: docker run -v `pwd`/Dockerfile:/Dockerfile replicated/dockerfilelint /Dockerfile
+
+
+  security:
+    silent: true
+    cmds:
+      - cmd: echo security
+
+  build-push:
+    silent: true
+    cmds:
+      - cmd: echo build and push
