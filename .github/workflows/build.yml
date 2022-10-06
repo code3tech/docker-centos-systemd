@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 01 - Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.1.0
 
       - name: 02 - Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
